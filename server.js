@@ -9,8 +9,13 @@ dotenv.config();
 
 const app = express();
 
+const allowedOrigins = [
+    process.env.FRONTEND_URL,
+    'http://localhost:5173'
+].filter(Boolean);
+
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: allowedOrigins,
     credentials: true
 }));
 app.use(express.json());
