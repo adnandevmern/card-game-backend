@@ -10,6 +10,15 @@ const OTPSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    type: {
+        type: String,
+        enum: ['login', 'signup'],
+        default: 'signup'
+    },
+    metadata: {
+        type: Object, // Stores firstName, lastName, password for signup
+        default: {}
+    },
     expiresAt: {
         type: Date,
         required: true

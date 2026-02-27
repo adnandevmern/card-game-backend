@@ -7,6 +7,17 @@ const UserSchema = new mongoose.Schema({
         unique: true,
         trim: true,
     },
+    firstName: {
+        type: String,
+        trim: true,
+    },
+    lastName: {
+        type: String,
+        trim: true,
+    },
+    password: {
+        type: String, // Should be hashed in real scenario
+    },
     isVerified: {
         type: Boolean,
         default: false,
