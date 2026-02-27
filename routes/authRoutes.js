@@ -79,4 +79,35 @@ router.post('/request-otp', authController.requestOTP);
  */
 router.post('/verify-otp', authController.verifyOTP);
 
+/**
+ * @swagger
+ * /api/auth/reset-password:
+ *   post:
+ *     summary: Reset user password using OTP
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - phoneNumber
+ *               - otp
+ *               - newPassword
+ *             properties:
+ *               phoneNumber:
+ *                 type: string
+ *               otp:
+ *                 type: string
+ *               newPassword:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Password updated successfully
+ *       400:
+ *         description: Invalid OTP or missing fields
+ */
+router.post('/reset-password', authController.resetPassword);
+
 module.exports = router;

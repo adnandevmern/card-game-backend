@@ -12,7 +12,7 @@ const OTPSchema = new mongoose.Schema({
     },
     type: {
         type: String,
-        enum: ['login', 'signup'],
+        enum: ['login', 'signup', 'forgot-password'],
         default: 'signup'
     },
     metadata: {

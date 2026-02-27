@@ -59,6 +59,10 @@ exports.requestOTP = async (req, res) => {
             if (existingUser) {
                 return res.status(400).json({ message: 'This phone number is already registered. Please log in.' });
             }
+        } else if (type === 'forgot-password') {
+            if (!existingUser) {
+                return res.status(404).json({ message: 'No account found with this phone number.' });
+            }
         }
 
         // Check for lockout
@@ -159,6 +163,35 @@ exports.verifyOTP = async (req, res) => {
                 walletBalance: user.walletBalance
             }
         });
+
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: 'Server error' });
+    }
+};
+exports.resetPassword = async (req, res) => {
+    try {
+        const { phoneNumber, otp, newPassword } = req.body;
+
+        if (!phoneNumber || !otp || !newPassword) {
+            return res.status(400).json({ message: 'All fields are required' });
+        }
+
+        const otpRecord = await OTP.findOne({ phoneNumber }).sort({ createdAt: -1 });
+
+        if (!otpRecord || otpRecord.otp !== otp || otpRecord.expiresAt < new Date()) {
+            return res.status(400).json({ message: 'Invalid or expired OTP' });
+        }
+
+        const user = await User.findOne({ phoneNumber });
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        user.password = newPassword;
+        await user.save();
+
+        res.status(200).json({ message: 'Password reset successful' });
 
     } catch (error) {
         console.error(error);
