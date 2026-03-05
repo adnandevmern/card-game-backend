@@ -51,7 +51,7 @@ exports.requestOTP = async (req, res) => {
             if (!existingUser) {
                 return res.status(404).json({ message: 'Account not found. Please sign up first.' });
             }
-            // Optional: Check password here if you want to verify password BEFORE sending OTP
+            // Optional: Check password here if you want to verify password BEFORE sending otp
             if (password && existingUser.password !== password) {
                 return res.status(401).json({ message: 'Invalid password.' });
             }
