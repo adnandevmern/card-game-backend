@@ -37,7 +37,7 @@ const OTPSchema = new mongoose.Schema({
     }
 }, { timestamps: true });
 
-// Auto-delete expired OTPs after 30 minutes to clean up DB
+// Auto-delete expired OTPs after 30 minutes to clean 
 OTPSchema.index({ expiresAt: 1 }, { expireAfterSeconds: 1800 });
 
 module.exports = mongoose.model('OTP', OTPSchema);
