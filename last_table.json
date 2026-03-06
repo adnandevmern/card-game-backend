@@ -1,0 +1,427 @@
+[
+  {
+    "_id": "69ab2d3603f2d68977a572cd",
+    "tableName": "WHOT 23",
+    "gameType": "WHOT",
+    "stake": 500,
+    "maxPlayers": 2,
+    "isPrivate": false,
+    "inviteCode": null,
+    "status": "IN_PROGRESS",
+    "createdBy": "69a1ea21c4a4d0cf653c101b",
+    "players": [
+      {
+        "user": "69a1ea21c4a4d0cf653c101b",
+        "hand": [
+          {
+            "suit": "⭐",
+            "value": "3",
+            "color": "black",
+            "_id": "69ab2d4003f2d68977a57710"
+          },
+          {
+            "suit": "♥",
+            "value": "5",
+            "color": "red",
+            "_id": "69ab2d4003f2d68977a57711"
+          },
+          {
+            "suit": "♠",
+            "value": "12",
+            "color": "black",
+            "_id": "69ab2d4003f2d68977a57712"
+          },
+          {
+            "suit": "♠",
+            "value": "6",
+            "color": "black",
+            "_id": "69ab2d4003f2d68977a57713"
+          }
+        ],
+        "score": 0,
+        "_id": "69ab2d3903f2d68977a574ec"
+      },
+      {
+        "user": "69ab207895b8b4c68ba68594",
+        "hand": [
+          {
+            "suit": "♠",
+            "value": "5",
+            "color": "black",
+            "_id": "69ab2d4003f2d68977a57714"
+          },
+          {
+            "suit": "♥",
+            "value": "9",
+            "color": "red",
+            "_id": "69ab2d4003f2d68977a57715"
+          },
+          {
+            "suit": "♥",
+            "value": "1",
+            "color": "red",
+            "_id": "69ab2d4003f2d68977a57716"
+          },
+          {
+            "suit": "♥",
+            "value": "10",
+            "color": "red",
+            "_id": "69ab2d4003f2d68977a57717"
+          }
+        ],
+        "score": 0,
+        "_id": "69ab2d4003f2d68977a5770e"
+      }
+    ],
+    "deck": [
+      {
+        "suit": "♣",
+        "value": "10",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57718"
+      },
+      {
+        "suit": "♥",
+        "value": "8",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57719"
+      },
+      {
+        "suit": "♠",
+        "value": "8",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5771a"
+      },
+      {
+        "suit": "♣",
+        "value": "9",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5771b"
+      },
+      {
+        "suit": "♣",
+        "value": "7",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5771c"
+      },
+      {
+        "suit": "♥",
+        "value": "3",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5771d"
+      },
+      {
+        "suit": "♠",
+        "value": "4",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5771e"
+      },
+      {
+        "suit": "♠",
+        "value": "3",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5771f"
+      },
+      {
+        "suit": "♥",
+        "value": "6",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57720"
+      },
+      {
+        "suit": "♥",
+        "value": "7",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57721"
+      },
+      {
+        "suit": "♠",
+        "value": "10",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57722"
+      },
+      {
+        "suit": "♥",
+        "value": "13",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57723"
+      },
+      {
+        "suit": "⭐",
+        "value": "10",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57724"
+      },
+      {
+        "suit": "♦",
+        "value": "1",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57725"
+      },
+      {
+        "suit": "❓",
+        "value": "20",
+        "color": "gold",
+        "_id": "69ab2d4003f2d68977a57726"
+      },
+      {
+        "suit": "♣",
+        "value": "4",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57727"
+      },
+      {
+        "suit": "♦",
+        "value": "7",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57728"
+      },
+      {
+        "suit": "♣",
+        "value": "12",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57729"
+      },
+      {
+        "suit": "⭐",
+        "value": "4",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5772a"
+      },
+      {
+        "suit": "⭐",
+        "value": "1",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5772b"
+      },
+      {
+        "suit": "♦",
+        "value": "5",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5772c"
+      },
+      {
+        "suit": "♦",
+        "value": "4",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5772d"
+      },
+      {
+        "suit": "♣",
+        "value": "5",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5772e"
+      },
+      {
+        "suit": "♦",
+        "value": "6",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5772f"
+      },
+      {
+        "suit": "♦",
+        "value": "12",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57730"
+      },
+      {
+        "suit": "♠",
+        "value": "11",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57731"
+      },
+      {
+        "suit": "⭐",
+        "value": "13",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57732"
+      },
+      {
+        "suit": "⭐",
+        "value": "7",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57733"
+      },
+      {
+        "suit": "⭐",
+        "value": "12",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57734"
+      },
+      {
+        "suit": "♦",
+        "value": "13",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57735"
+      },
+      {
+        "suit": "♣",
+        "value": "6",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57736"
+      },
+      {
+        "suit": "♦",
+        "value": "11",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57737"
+      },
+      {
+        "suit": "❓",
+        "value": "20",
+        "color": "gold",
+        "_id": "69ab2d4003f2d68977a57738"
+      },
+      {
+        "suit": "⭐",
+        "value": "11",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57739"
+      },
+      {
+        "suit": "♣",
+        "value": "3",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5773a"
+      },
+      {
+        "suit": "♦",
+        "value": "3",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5773b"
+      },
+      {
+        "suit": "♥",
+        "value": "4",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5773c"
+      },
+      {
+        "suit": "♣",
+        "value": "1",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5773d"
+      },
+      {
+        "suit": "⭐",
+        "value": "5",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5773e"
+      },
+      {
+        "suit": "♣",
+        "value": "11",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5773f"
+      },
+      {
+        "suit": "♠",
+        "value": "1",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57740"
+      },
+      {
+        "suit": "❓",
+        "value": "20",
+        "color": "gold",
+        "_id": "69ab2d4003f2d68977a57741"
+      },
+      {
+        "suit": "♣",
+        "value": "13",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57742"
+      },
+      {
+        "suit": "♥",
+        "value": "11",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a57743"
+      },
+      {
+        "suit": "⭐",
+        "value": "6",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57744"
+      },
+      {
+        "suit": "♠",
+        "value": "9",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57745"
+      },
+      {
+        "suit": "⭐",
+        "value": "9",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57746"
+      },
+      {
+        "suit": "♣",
+        "value": "8",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57747"
+      },
+      {
+        "suit": "❓",
+        "value": "20",
+        "color": "gold",
+        "_id": "69ab2d4003f2d68977a57748"
+      },
+      {
+        "suit": "❓",
+        "value": "20",
+        "color": "gold",
+        "_id": "69ab2d4003f2d68977a57749"
+      },
+      {
+        "suit": "♦",
+        "value": "10",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5774a"
+      },
+      {
+        "suit": "♦",
+        "value": "9",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5774b"
+      },
+      {
+        "suit": "♥",
+        "value": "12",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5774c"
+      },
+      {
+        "suit": "⭐",
+        "value": "8",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5774d"
+      },
+      {
+        "suit": "♦",
+        "value": "8",
+        "color": "red",
+        "_id": "69ab2d4003f2d68977a5774e"
+      },
+      {
+        "suit": "♠",
+        "value": "13",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a5774f"
+      }
+    ],
+    "discardPile": [
+      {
+        "suit": "♠",
+        "value": "7",
+        "color": "black",
+        "_id": "69ab2d4003f2d68977a57750"
+      }
+    ],
+    "createdAt": "2026-03-06T19:38:30.180Z",
+    "updatedAt": "2026-03-06T19:38:40.579Z",
+    "__v": 3,
+    "currentTurn": "69a1ea21c4a4d0cf653c101b"
+  }
+]

@@ -5,7 +5,7 @@ const ALLOWED_STAKES = [200, 500, 1000, 2000, 5000, 10000];
 
 exports.createTable = async (req, res) => {
   try {
-    const { gameType, stake, maxPlayers, isPrivate } = req.body;
+    const { gameType, stake, maxPlayers, isPrivate, createdBy } = req.body;
 
     if (!ALLOWED_STAKES.includes(stake)) {
       return res.status(400).json({ message: "Invalid stake" });
@@ -30,6 +30,7 @@ exports.createTable = async (req, res) => {
       maxPlayers,
       isPrivate,
       inviteCode,
+      createdBy,
     });
 
     res.json({
@@ -51,7 +52,7 @@ exports.listTables = async (req, res) => {
       filter.gameType = gameType.toUpperCase();
     }
 
-    const tables = await Table.find(filter).sort({ tableName: 1 });
+    const tables = await Table.find(filter).sort({ createdAt: -1 });
 
     res.json({ success: true, data: tables });
   } catch (err) {
